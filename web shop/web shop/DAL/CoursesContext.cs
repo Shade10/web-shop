@@ -15,7 +15,7 @@ namespace web_shop.DAL
             
         }
         public DbSet<Course> Courses { get; set; }
-        public DbSet<Category> Category { get; set; }
+        public DbSet<Category> Categories { get; set; }
         public DbSet<Order> Orders { get; set; }
         public DbSet<OrderPosition> OrdersPositions { get; set; }
 
