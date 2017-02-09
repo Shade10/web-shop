@@ -16,9 +16,7 @@ namespace web_shop.Controllers
         // GET: Home
         public ActionResult Index()
         {
-            Category category = new Category {CategoryName = "asp.net mvc", NameFileIcon = "aspNetMvc.png", DescriptionCategory = "opis"};
-            db.Categories.Add(category);
-            db.SaveChanges();
+            var CategoryList = db.Categories.ToList();
 
 
             return View();

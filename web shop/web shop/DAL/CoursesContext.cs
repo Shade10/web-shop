@@ -14,6 +14,11 @@ namespace web_shop.DAL
         {
             
         }
+        static CoursesContext()
+        {
+            Database.SetInitializer<CoursesContext>(new CoursesInitializer());
+        }
+
         public DbSet<Course> Courses { get; set; }
         public DbSet<Category> Categories { get; set; }
         public DbSet<Order> Orders { get; set; }
