@@ -9,7 +9,7 @@ namespace web_shop.Migrations
     {
         public Configuration()
         {
-            AutomaticMigrationsEnabled = true;
+            AutomaticMigrationsEnabled = false;
             ContextKey = "web_shop.DAL.CoursesContext";
         }
 

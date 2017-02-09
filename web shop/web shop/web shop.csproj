@@ -153,6 +153,10 @@
     <Compile Include="Migrations\201702060739041_InitialCreate.Designer.cs">
       <DependentUpon>201702060739041_InitialCreate.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201702091324116_added new variable.cs" />
+    <Compile Include="Migrations\201702091324116_added new variable.Designer.cs">
+      <DependentUpon>201702091324116_added new variable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Category.cs" />
     <Compile Include="Models\Course.cs" />
@@ -190,6 +194,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201702060739041_InitialCreate.resx">
       <DependentUpon>201702060739041_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201702091324116_added new variable.resx">
+      <DependentUpon>201702091324116_added new variable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
